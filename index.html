@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Это сайт - резюме Михаила Михеева">
+    <meta name="keywords" content="Mikheev, cv, resume">
+    <link rel="stylesheet" href="./style.css">
+    <title>Resume</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="head-resume">
+            <img class="avatar" src="avatar.jpg" width="200"  alt="Михаил Михеев">
+
+            <div class="content-head">
+                <h1>Михаил Михеев</h1>
+
+                <p>Я начинающий <strong>web-разработчик</strong>. На данный момент <em>изучаю курс по программированию</em> в школе <strong>Result School</strong></p>
+
+                <p>Я люблю <em>пиво</em> и <em>пробежки трусцой</em></p>
+            </div>
+        </div>
+
+        <div class="Card color-1">
+            <h3>Мои хобби:</h3>
+
+            <ul>
+                <li>бег трусцой</li>
+                <li>баскетбол</li>
+                <li>чтение книг</li>
+                <li>программирование</li>
+                <li>секс</li>
+            </ul>
+        </div>
+
+        <div class="Card color-2">
+            <h3>Опыт работы</h3>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Название работы</th>
+                        <th>Должность</th>
+                        <th>Год</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Пассажтрская компания РЖД</td>
+                        <td>Проводник</td>
+                        <td>2016</td>
+                    </tr>
+                    <tr>
+                        <td>ШЧ-19</td>
+                        <td>Электромеханик</td>
+                        <td>2018</td>
+                    </tr>
+                    <tr>
+                        <td>SmartLab</td>
+                        <td>Преподаватель</td>
+                        <td>2020</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>  
+
+
+        <div class="Card color-3">
+            <h3>Список социальных сетей:</h3>
+
+            <a href="https://vk.com/mishamikheev" class="a" target="_blanck">Вконтакте</a>
+        </div>    
+
+
+        <form class="form">
+            
+            <h1>Связаться со мной</h1>
+
+            <div class="form-row">
+
+                <div class="form-group">
+                    <label for="text">Текст:</label>
+                    <input type="text" id="text" placeholder="Введите Имя">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Введите Email">
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label for="password">Пароль:</label>
+                <input type="password" id="password" placeholder="Введите пароль">
+            </div>
+
+            <div class="form-group">
+                <label for="message">Сообщение:</label>
+                <br>
+                <textarea id="message" cols="10" rows="5" placeholder="Введите сообщение"></textarea>
+            </div>
+
+            <input type="submit" class="btn" value="Отправить форму">
+
+        </form>
+
+    </div>
+</body>
+</html>
